@@ -1,0 +1,24 @@
+.buttonContainer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    row-gap: 3rem;
+    column-gap: 1.5rem;
+    margin: 3%;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .buttonContainer {
+      grid-template-columns: repeat(4,1fr);
+      row-gap: 1rem;
+        
+
+    }
+  }
+
+  @media only screen and (max-width: 400px) {
+    .buttonContainer {
+      grid-template-columns: repeat(3,1fr);
+        
+
+    }
+  }
